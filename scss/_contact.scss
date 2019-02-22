@@ -5,7 +5,7 @@ section.contact {
         margin-top: 0;
         margin-bottom: 25px;
         i {
-            color: $brand-google-plus;
+            color: white;
         }
     }
     ul.list-social {
@@ -33,14 +33,6 @@ section.contact {
                     background-color: $brand-facebook;
                     &:hover {
                         background-color: darken($brand-facebook, 5%);
-                    }
-                }
-            }
-            &.social-google-plus {
-                a {
-                    background-color: $brand-google-plus;
-                    &:hover {
-                        background-color: darken($brand-google-plus, 5%);
                     }
                 }
             }
