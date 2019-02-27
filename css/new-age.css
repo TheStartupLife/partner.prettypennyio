@@ -269,10 +269,10 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: url("../img/target-aisle.jpg");
   background-position: center;
   background-size: cover;
- }
+}
 
 section.cta .cta-content {
   position: relative;
