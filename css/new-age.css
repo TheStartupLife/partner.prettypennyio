@@ -60,6 +60,104 @@ section h2 {
   font-size: 50px;
 }
 
+section.brands .section-heading {
+  margin-bottom: 50px;
+}
+
+section.brands .section-heading h2 {
+  margin-top: 0;
+  color: "black";
+}
+
+section.brands .section-heading p {
+  margin-bottom: 0;
+}
+
+section.brands .device-container,
+section.brands .feature-item {
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+section.brands .device-container {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  section.brands .device-container {
+    margin-bottom: 0;
+  }
+}
+
+section.brands .feature-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+section.brands .feature-item h3 {
+  font-size: 30px;
+}
+
+section.brands .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: -webkit-gradient(linear, right top, left top, from(#7ed957), to(#008080));
+  background: linear-gradient(to left, #7ed957, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.retailers .section-heading {
+  margin-bottom: 50px;
+}
+
+section.retailers .section-heading h2 {
+  margin-top: 0;
+  color: "black";
+}
+
+section.retailers .section-heading p {
+  margin-bottom: 0;
+}
+
+section.retailers .device-container,
+section.retailers .feature-item {
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+section.retailers .device-container {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  section.retailers .device-container {
+    margin-bottom: 0;
+  }
+}
+
+section.retailers .feature-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+section.retailers .feature-item h3 {
+  font-size: 30px;
+}
+
+section.retailers .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: -webkit-gradient(linear, right top, left top, from(#7ed957), to(#008080));
+  background: linear-gradient(to left, #7ed957, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 section.added-benefits {
   background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7ed957), to(#008080));
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #7ed957, #008080);
@@ -67,10 +165,6 @@ section.added-benefits {
 
 .section-heading h2 {
   font: weight 200;
-  color: "white";
-}
-
-.benefit {
   color: "white";
 }
 
@@ -321,6 +415,8 @@ section.cta .overlay {
 }
 
 section.contact {
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7ed957), to(#008080));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7ed957, #008080);
   text-align: center;
 }
 
