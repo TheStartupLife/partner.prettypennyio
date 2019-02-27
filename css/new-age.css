@@ -60,6 +60,24 @@ section h2 {
   font-size: 50px;
 }
 
+section.added-benefits {
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7ed957), to(#008080));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7ed957, #008080);
+}
+
+.section-heading h2 {
+  font: weight 200;
+  color: "white";
+}
+
+.benefit {
+  color: "white";
+}
+
+.benefit-text {
+  color: "white";
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
