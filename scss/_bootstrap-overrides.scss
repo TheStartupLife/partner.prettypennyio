@@ -5,9 +5,12 @@
     background: linear-gradient($theme-primary, darken($theme-primary, 5%));
 }
 
-.contactform h2 {
+.leadForm h2 {
     margin-bottom: 50px;
     color:black;
+}
+.leadForm p {
+    text-align: left;
 }
 
 .text-primary {

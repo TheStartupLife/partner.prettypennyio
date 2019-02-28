@@ -10,6 +10,10 @@
 
   <title>Pretty Penny</title>
 
+
+  <!--Google CDN for JQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -63,7 +67,7 @@
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
             <h1 class="mb-5">Join your customers on their shopping journey with Pretty Penny!</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+            <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
           </div>
         </div>
         <div class="col-lg-5 my-auto">
@@ -255,39 +259,30 @@
       </section>
 
 
-      <section class="contactform" id="contact">
+      <section class="leadForm" id="contact">
         <div class="container">
           <div class="section-heading text-center">
             <h2>We look forward to hearing from you!</h2>
-              <form>
-                <div>
-                  <div>
-                    <label>First Name</label>
-                  </div>
-                  <input type="text" id="firstname" name="firstname" placeholder="First Name">
-                </div>
-                <div>
-                  <div>
-                    <label>Last Name</label>
-                  </div>
-                  <input type="text" id="lastname" name="lastname" placeholder="Last Name">
-                </div>
-                <div>
-                    <div>
-                      <label>Email</label>
-                    </div>
-                    <div>
-                      <input type="text" id="email" name="email" placeholder="Email">
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <label>Phone Number</label>
-                    </div>
-                      <input type="text" id="phonenumber" name="phonenumber" placeholder="Phone Number">
-                        <br>
-                        <br>
-                        <input type="submit" value="Submit">                      
+              <form id="contactForm" action="">
+                <p>
+                  <label>First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="First Name">
+                </p>
+                <p>
+                  <label>Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                </p>
+                <p>
+                  <label>Email</label>
+                  <input type="text" id="email" name="email" placeholder="Email">
+                </p>
+                <p>
+                  <label>Phone Number</label>
+                  <input type="text" id="phonenumber" name="phonenumber" placeholder="Phone Number">
+                </p>
+                    <br>
+                    <br>
+                        <input id="joinUsButton" type="submit" value="Submit">                      
                     </div>
                 </form>
           </div>
@@ -331,6 +326,10 @@
       </ul>
     </div>
   </footer>
+
+  <!--Firebase-->
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
