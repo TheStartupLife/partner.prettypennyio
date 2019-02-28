@@ -66,7 +66,7 @@ section.brands .section-heading {
 
 section.brands .section-heading h2 {
   margin-top: 0;
-  color: "black";
+  color: black;
 }
 
 section.brands .section-heading p {
@@ -115,7 +115,7 @@ section.retailers .section-heading {
 
 section.retailers .section-heading h2 {
   margin-top: 0;
-  color: "black";
+  color: black;
 }
 
 section.retailers .section-heading p {
@@ -488,6 +488,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: #7ed957;
   background: -webkit-gradient(linear, left top, left bottom, from(#7ed957), to(#6ed442));
   background: linear-gradient(#7ed957, #6ed442);
+}
+
+.contactform h2 {
+  color: black;
 }
 
 .text-primary {
