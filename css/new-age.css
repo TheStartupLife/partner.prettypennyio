@@ -490,9 +490,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: linear-gradient(#7ed957, #6ed442);
 }
 
-.contactform h2 {
+.leadForm h2 {
   margin-bottom: 50px;
   color: black;
+}
+
+.leadForm p {
+  text-align: left;
 }
 
 .text-primary {
