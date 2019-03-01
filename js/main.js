@@ -37,6 +37,20 @@ var company = getInputVal('company');
 
 saveCompany(firstname, lastname, email, phone, company);
 
+// Show Alert
+
+document.querySelector('.alert').style.display = 'block';
+
+// Hide  alert after 5 seconds
+setTimeout(function(){
+
+document.querySelector('.alert').style.display = 'none';
+
+},5000);
+
+// Clear form
+document.getElementById('contactForm').reset();
+
 
 }
 

@@ -13,6 +13,15 @@
     text-align: left;
 }
 
+.alert {
+text-align:center;
+padding:10px;
+background:#7ed957;
+color:#fff;
+margin-bottom:10px;
+display:none;
+}
+
 .text-primary {
     color: $theme-primary;
 }
@@ -58,7 +67,7 @@ input[type=text], select, textarea {
   }
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #7ed957;
     color: white;
     padding: 12px 20px;
     border: none;
