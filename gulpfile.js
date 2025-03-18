@@ -10,7 +10,7 @@ const header = require("gulp-header");
 const merge = require("merge-stream");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 const uglify = require("gulp-uglify");
 
 // Load package.json for banner
@@ -29,8 +29,9 @@ const banner = ['/*!\n',
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: ["./pages","./"]
     },
+    startPath: "/pages/index.html", // 🔥 Ensures `index.html` is the default page
     port: 3000
   });
   done();
